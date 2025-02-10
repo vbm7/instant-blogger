@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>NewsToday</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#world">World</a></li>
+                <li><a href="#politics">Politic</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#tech">Tech</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news-articles">
+            <div class="article" id="article1">
+                <h2>Breaking News: Global Events</h2>
+                <p>Latest updates on world events happening around the globe...</p>
+                <button onclick="showDetails('article1')">Read More</button>
+            </div>
+
+            <div class="article" id="article2">
+                <h2>Tech Advances: Future of AI</h2>
+                <p>Discover the latest in AI technology and its impact on society...</p>
+                <button onclick="showDetails('article2')">Read More</button>
+            </div>
+
+            <div class="article" id="article3">
+                <h2>Sports Highlights: Top Teams</h2>
+                <p>Check out the top performing teams this season in football...</p>
+                <button onclick="showDetails('article3')">Read More</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NewsToday. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
